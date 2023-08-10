@@ -1,0 +1,52 @@
+.nav{
+
+    display: flex;
+    padding: 2rem 10rem;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: var(--base-background, #FAFAFA);
+
+    img{
+        width: 84.952px;
+        height: 40px;
+    }
+div{ 
+    display: flex;
+    justify-content: center;
+        align-items: center;
+
+    button{
+        cursor: pointer;
+        border: none;
+        display: flex;
+        padding: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+       
+        background: var(--brand-purple-light, #EBE5F9);
+        samp{
+            color: var(--brand-purple-dark, #4B2995); 
+            font-family: Roboto;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%; /* 1.1375rem */
+        }
+        + button{
+            
+            margin-left: 0.5rem;
+            
+           
+            border-radius: 0.375rem;
+            color: var( --yellow-dark);
+            background: var(--brand-yellow-light, #F1E9C9);
+
+        }
+    }
+
+
+}
+   
+}
