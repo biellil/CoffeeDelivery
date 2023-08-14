@@ -40,6 +40,10 @@ export const GlobalStyle = createGlobalStyle`
 }  
 
 body{
+  background: var(--base-background, #FAFAFA);
+  display: flex;
+flex-direction: column;
+justify-content: center;
 
 }
 `

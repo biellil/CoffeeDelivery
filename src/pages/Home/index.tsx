@@ -7,7 +7,7 @@ import {
   Packages,
   Times,
   Coffees,
-} from './styles'
+} from './styles.module'
 import imagem from '../../assets/Imagem.svg'
 import { Products } from './components'
 
