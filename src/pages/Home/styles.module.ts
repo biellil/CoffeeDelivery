@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
-export const HomeContainer = styled.main`
+export const Main = styled.main`
+  height: 1800px;
+`
+
+export const HomeContainer = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;

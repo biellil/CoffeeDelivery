@@ -7,13 +7,14 @@ import {
   Packages,
   Times,
   Coffees,
+  Main,
 } from './styles.module'
 import imagem from '../../assets/Imagem.svg'
 import { Products } from './components'
 
 export function Home() {
   return (
-    <>
+    <Main>
       <HomeContainer>
         <Content>
           <h1>
@@ -47,6 +48,6 @@ export function Home() {
         <img src={imagem} />
       </HomeContainer>
       <Products />
-    </>
+    </Main>
   )
 }
