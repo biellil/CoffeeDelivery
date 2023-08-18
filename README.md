@@ -27,7 +27,7 @@ This project was developed with the following technologies:
 
 ## ℹ️ How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Yarn](https://legacy.yarnpkg.com). From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) . From your command line:
 
 ```bash
 # Clone the repository
