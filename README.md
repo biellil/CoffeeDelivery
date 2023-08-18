@@ -51,10 +51,10 @@ $ git clone https://github.com/biellil/CoffeeDelivery.git
 $ cd coffe-delivery
 
 # Install dependencies
-$ yarn
+$ npm i
 
 # Run the development server
-$ yarn dev
+$ npm run dev
 
 # Navigate to http://localhost:3000
 # The app will automatically reload if you change any of the source files.
